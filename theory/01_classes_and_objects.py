@@ -1,15 +1,25 @@
 # 01_classes_and_objects.py
+# ------------------------------------------------------
+# Project: POO-Python-Exercises
+# Version: 1.1
+# Last Updated: 2024-10-21
+# Author: Jose Antonio
+# ------------------------------------------------------
+# Change Log:
+# v1.1 - Translated comments, variable names, and function names to English
+# v1.0 - Initial version with basic class structure and comments in Spanish
+# ------------------------------------------------------
 
-# Definimos una clase Coche con dos atributos: marca y modelo
-class Coche:
-    def __init__(self, marca, modelo):
-        self.marca = marca  # Atributo de instancia
-        self.modelo = modelo  # Atributo de instancia
+# Define a Car class with two attributes: brand and model
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand  # Instance attribute
+        self.model = model  # Instance attribute
 
-    # Método para mostrar información del coche
-    def mostrar_info(self):
-        print(f"Este coche es un {self.marca} {self.modelo}")
+    # Method to show information about the car
+    def show_info(self):
+        print(f"This car is a {self.marca} {self.modelo}")
 
-# Crear un objeto de la clase Coche
-mi_coche = Coche("Toyota", "Corolla")
-mi_coche.mostrar_info()  # Output: Este coche es un Toyota Corolla
+# Create an instance of the Car object
+mi_coche = Car("Toyota", "Corolla")
+mi_coche.show()  # Output: Este coche es un Toyota Corolla

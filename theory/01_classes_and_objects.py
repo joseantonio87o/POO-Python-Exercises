@@ -22,4 +22,4 @@ class Car:
 
 # Create an instance of the Car object
 mi_coche = Car("Toyota", "Corolla")
-mi_coche.show()  # Output: Este coche es un Toyota Corolla
+mi_coche.show()  # Output: This car is a Toyota Corolla

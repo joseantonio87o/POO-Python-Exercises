@@ -1,7 +1,7 @@
 # 01_classes_and_objects_practise.py
 # ------------------------------------------------------
 # Project: POO-Python-Exercises
-# Version: 1.1
+# Version: 1.2
 # Last Updated: 2024-10-22
 # Author: Jose Antonio
 # ------------------------------------------------------
@@ -82,11 +82,31 @@ def exercise_2():
     library.add_book(book3)
     library.list_books()
 
+def exercise_3():
+    # Code for Exercise 3
+    class Vehicle():
+        def __init__(self, brand, model):
+            self.brand = brand
+            self.model = model
+        
+        def describir(self):
+            print(f"Vehicle: {self.brand} {self.model}")
+    
+    class Car(Vehicle):
+        def __init__(self, brand, model, numero_de_puertas):
+            super().__init__(brand, model)
+            self.numero_de_puertas = numero_de_puertas
 
-
-# def exercise_3():
+        def describir(self):
+            super().describir()
+            print(f"Number of doors: {self.numero_de_puertas}\n")
+        
+    car1 = Car("Ford", "Focus", 4)
+    car1.describir()
+    car2 = Car("Renault", "Captur", 4)
+    car2.describir()
 
 # To run each exercise:
 # exercise_1()
-exercise_2()
-# exercise_3()
+# exercise_2()
+exercise_3()

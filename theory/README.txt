@@ -9,5 +9,7 @@ This folder contains theoretical scripts and examples that illustrate key concep
 4. Inheritance
 5. Polymorphism
 6. Abstraction
+7. Composición
+8. Manejo de Excepciones
 
 Each script in this folder demonstrates specific OOP principles with code examples, providing a foundational understanding of how OOP is applied in Python.

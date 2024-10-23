@@ -9,3 +9,5 @@ This section covers various aspects of attributes and methods in Object-Oriented
 5. **05_dunder_methods.py** - Introduces special methods like `__str__` and `__repr__`.
 6. **06_private_and_protected_attributes.py** - Discusses private and protected attributes in Python.
 7. **07_dynamic_attributes_and_methods.py** - Explains how to add attributes and methods dynamically to objects.
+
+**Aqui podrian haber mas ejercicios tal vez**

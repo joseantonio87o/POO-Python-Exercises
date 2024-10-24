@@ -19,7 +19,9 @@ class Car:
         return f"{self.brand} {self.model}"
 
 # Creating an instance of Car with specific brand and model attributes
-car1 = Car("Toyota", "Corolla")
+car1 = Car("Renault", "Captur")
+car2 = Car("Toyota", "Corolla")
 
 # The __str__ method is called when we use print() to provide a readable string representation of the object
-print(car1)  # Output: Toyota Corolla
+print(car1)  # Output: Renault Captur
+print(car2)  # Output: Toyota Corolla
